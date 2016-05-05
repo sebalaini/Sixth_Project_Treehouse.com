@@ -1,0 +1,35 @@
+/***************
+TEXT FILL
+***************/
+
+@keyframes fill_text {
+  100% {
+    fill: $tan;
+  }
+}
+
+
+@keyframes offset{
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill_pawn {
+  100% {
+    fill: $negroni;
+  }
+}
+
+@keyframes fill_logo_background {
+  100% {
+    fill: $twine;
+  }
+}
+
+/***************
+KEYFRAMES
+***************/
+
+
+

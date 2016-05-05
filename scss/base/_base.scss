@@ -1,0 +1,58 @@
+/***************
+GENERAL
+***************/
+
+#wrapper {
+  max-width: 960px;
+  background: $white;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  font-family: $primary_font;
+  font-weight: $secondary_size;
+  color: $black;
+  background: url("../svgs/background.svg") $light_grey;
+  background-size: 50px 50px;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: $light_blue;
+  font-weight: $primary_size;
+}
+
+a:hover {
+  color: $blue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+#logo-text{
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+#logo{
+   height: 150px;
+   width: 150px;
+ }
+
+
+
+
