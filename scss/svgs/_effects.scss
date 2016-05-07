@@ -26,7 +26,7 @@ LOGO
   display: none;
 }
 
-@include desktop { 
+@include tablet { 
   display: flex;
   position: absolute;
   top: -10000px;
@@ -37,7 +37,9 @@ LOGO
   stroke-dashoffset: 250;
   animation: offset 5s linear forwards, fill_text .8s 1s forwards;
 }
+
 }
+
 
 #logo_paw {
   stroke: $negroni;

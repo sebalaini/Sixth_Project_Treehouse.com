@@ -8,7 +8,6 @@ TEXT FILL
   }
 }
 
-
 @keyframes offset{
   100%{
     stroke-dashoffset: 0;
@@ -45,6 +44,10 @@ DOGS
   }
 }
 
-
+@keyframes nav_hover {
+  100% {
+    transition: width;
+  }
+}
 
 
