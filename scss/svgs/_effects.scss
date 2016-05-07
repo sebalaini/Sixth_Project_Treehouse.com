@@ -21,11 +21,22 @@ LOGO
 ***************/
 
 #logo_text {
- stroke: $tan;
- stroke-width: 1;
- stroke-dasharray: 250;
- stroke-dashoffset: 250;
- animation: offset 5s linear forwards, fill_text .8s 1s forwards;
+
+@include mobile {
+  display: none;
+}
+
+@include desktop { 
+  display: flex;
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+  stroke: $tan;
+  stroke-width: 1;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation: offset 5s linear forwards, fill_text .8s 1s forwards;
+}
 }
 
 #logo_paw {
@@ -46,5 +57,10 @@ LOGO
 DOGS
 ***************/
 
-
+#corgi-red:hover,
+#corgi-fawn:hover,
+#corgi-sable:hover,
+#corgi-blacktan:hover {
+  animation: grow 1.2s .8s forwards;
+}
 

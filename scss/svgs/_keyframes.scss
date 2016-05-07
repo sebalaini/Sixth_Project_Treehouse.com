@@ -27,9 +27,24 @@ TEXT FILL
   }
 }
 
+
+
 /***************
-KEYFRAMES
+DOGS
 ***************/
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 
 
