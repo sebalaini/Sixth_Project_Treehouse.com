@@ -8,12 +8,6 @@ NAV
   fill: $light_blue;
 }
 
-#nav_heart:hover,
-#nav_location:hover,
-#nav_contact:hover {
-  fill: $blue;
-}
-
 
 
 /***************
@@ -26,7 +20,7 @@ LOGO
   display: none;
 }
 
-@include tablet { 
+@include textlogo { 
   display: flex;
   position: absolute;
   top: -10000px;
@@ -65,4 +59,6 @@ DOGS
 #corgi-blacktan:hover {
   animation: grow 1.2s .8s forwards;
 }
+
+
 

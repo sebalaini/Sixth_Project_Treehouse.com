@@ -2,12 +2,19 @@
 DOGS
 ***************/
 
-$mobile-width: 320px;
-$tablet-width: 420px;
+$mobile-width: 318px;
+$textlogo-width: 420px;
+$tablet-width: 768px;
 $desktop-width: 1024px;
 
 @mixin mobile {
   @media (min-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin textlogo {
+  @media (min-width: #{$textlogo-width}) {
     @content;
   }
 }
