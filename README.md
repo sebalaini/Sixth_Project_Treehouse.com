@@ -1,9 +1,7 @@
 # Sixth_Project_Treehouse.com
 
-Sixth_Project_Treehouse.com
-
-Modify a base page, replace img with svg and add animation.
-
-Know issue: animation doesn't work with firefox.
+The sixth project Treehouse.com, in this project i have to modify a base web page with <img> and change them with <svg> and finally add animations.
 
 Tested with Chrome, safari, opera and safari on IOS.
+
+Know issue: animation doesn't work with firefox.
