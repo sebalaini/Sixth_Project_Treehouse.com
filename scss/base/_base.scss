@@ -46,6 +46,17 @@ a {
 main {
   padding-top: 50px;
 }
+
+#h1_text {
+
+  @include mobile {
+    color: $light_brown;
+  }
+
+  @include textlogo {
+    display: none;
+  }
+}
   
 h2 {
   font-size: 28px;
