@@ -1,7 +1,7 @@
 # Sixth_Project_Treehouse.com
 
-The sixth project Treehouse.com, in this project i have to modify a base web page with <img> and change them with <svg> and finally add animations.
+Graphics are an important part of any website. They add visual appeal and help translating complex ideas into easer ones to understand imagery. One type of image, SVG (scalable vector graphics) is becoming a widely used graphics format, replacing other types of images on many websites, because of SVGs better performance. This project challenged me to optimize a web page by using common techniques for adding this streamlined image format to web pages.
 
-Tested with Chrome, safari, opera and safari on IOS.
+# Know issue: 
 
-Know issue: animation doesn't work with firefox.
+animation doesn't work with firefox.
